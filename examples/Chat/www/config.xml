@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.megster.bluetooth.chat" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.megster.bluetooth.chat" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"
+xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Chat</name>
     <description>
         A Sample Chat Application demonstrating the BluetoothSerial PhoneGap plugin.
@@ -38,4 +39,5 @@
     <preference name="KeyboardShrinksView" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
+    <gap:plugin name="com.megster.cordova.bluetoothserial" version="0.3.3" />
 </widget>
